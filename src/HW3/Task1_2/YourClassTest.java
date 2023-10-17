@@ -23,6 +23,7 @@ public class YourClassTest {
         boolean result = yourObject.isEvenOrOddNumber(number);
         assertFalse(result, number + " должно считаться нечетным.");
     }
+
     @ParameterizedTest
     @ValueSource(ints = {50, 75, 99})
     public void testNumberInIntervalWithinBounds(int number) {

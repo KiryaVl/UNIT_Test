@@ -3,6 +3,7 @@ package HW3;
 import java.util.*;
 
 public class UserRepository implements UserLogout {
+
     public List<User> data = new ArrayList<>();
 
     public boolean addUser(User user) {

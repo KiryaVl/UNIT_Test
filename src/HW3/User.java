@@ -61,10 +61,6 @@ public class User {
         return isAuth;
     }
 
-    public void logout() {
-        isAuth = false;
-    }
-
     public boolean isAdmin() {
         return isAdmin;
     }
